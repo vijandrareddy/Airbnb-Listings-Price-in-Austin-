@@ -1,5 +1,33 @@
 # Airbnb-Listings-Price-in-Austin-
 
+Overview:
+
+Airbnb is evolved as an online marketplace due to its popularity of network growth and sharedeconomies. The online company expanded to have more than 160,000,000 guests in 191 countries since
+its establishment in 2008. It is letting people rent out their properties and rooms by providing affordable
+accommodations. Airbnb provides millions of places to stay and tens of thousands of handcrafted events,
+all fueled by local hosts, in the business of connections. Airbnb has helped millions of hosts entertain
+visitors by offering innovative travel experiences as an economic empowerment driver. Austin, Texas is
+a southern city that keeps making headlines. The city to visit in America was recently voted No. 1 and
+was picked to remain among the top 15 cities in the US.
+
+Dataset Source:
+
+Airbnb Listings
+We collected the Austin Listings dataset from InsideAirbnb.com. It is a CSV file that includes 74
+variables and 10433 listings. We cleaned and created a new dataset with 27 variables for our hypothesis.
+The target variables are Accuracy Rating, Cleanliness Review, Check-In Rating, Communication Rating,
+Value Rating, Zip code, Location Review, Price, Beds, Bedrooms, Bathrooms, Room Type, and Amenities
+(Dishwasher, Hot water, Cable TV, and so on).
+
+Source: http://insideairbnb.com/get-the-data.html
+
+Austin Arts & Cultural Facilities- CAMP
+
+The Austin Arts & Cultural Facilities- CAMP was retrieved from data.austintexas.gov (Rempe 2020). It
+is a list of how many cultural assets in the Austin area. The dataset consists of 16 variables and 1072
+rows. We only used zip code for this dataset and counted the number of entertainments in each zip code.
+
+Source: https://data.austintexas.gov/Recreation-and-Culture/Arts-Cultural-Facilities-CAMP-CulturalAsset-Mappi/8kxv-xaqc
 Data Preprocessing steps:
 
 • Dataset Import and Summarization:
